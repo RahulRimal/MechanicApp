@@ -1,0 +1,35 @@
+flavors:
+  dev:
+    app:
+      name: "Mechanic KR Dev"
+
+    android:
+      applicationId: "com.example.mechanic.app.dev.kr"  
+    ios:
+      bundleId: "com.example.mechanic.app.dev.kr"
+    macos:
+      bundleId: "com.example.mechanic.app.dev.kr" 
+
+  staging:
+    app:
+    
+      name: "Mechanic Staging"
+
+    android:
+      applicationId: "com.example.mechanic.app.staging"  
+    ios:
+      bundleId: "com.example.mechanic.app.staging"
+    macos:
+      bundleId: "com.example.mechanic.app.staging"
+    
+  prod:
+    app:
+      name: "Mechanic Prod"
+
+    android:
+      applicationId: "com.example.mechanic.app"  
+    ios:
+      bundleId: "com.example.mechanic.app"
+    macos:
+      bundleId: "com.example.mechanic.app"
+  
